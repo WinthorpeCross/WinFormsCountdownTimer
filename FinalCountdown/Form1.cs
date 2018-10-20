@@ -26,7 +26,7 @@ namespace FinalCountdown
                 //trigger getNextCall, if statuses are right...
             }
 
-            lblStatus.Text = string.Format("You have {0} seconds call wrap-up time remaining...", counter); 
+            lblStatus.Text = string.Format("You have {0} seconds call wrap-up time left...", counter); 
         }
 
         private void btnStart_Click(object sender, EventArgs e)
