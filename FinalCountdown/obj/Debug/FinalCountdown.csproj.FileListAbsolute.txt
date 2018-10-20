@@ -1,0 +1,10 @@
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\bin\Debug\FinalCountdown.exe.config
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\bin\Debug\FinalCountdown.exe
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\bin\Debug\FinalCountdown.pdb
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.csprojAssemblyReference.cache
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.Properties.Resources.resources
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.csproj.GenerateResource.cache
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.csproj.CoreCompileInputs.cache
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.exe
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.pdb
+C:\Users\rcros\source\repos\FinalCountdown\FinalCountdown\obj\Debug\FinalCountdown.Form1.resources
