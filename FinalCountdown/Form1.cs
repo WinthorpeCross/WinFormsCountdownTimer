@@ -46,6 +46,7 @@ namespace FinalCountdown
             if (counter != 0)
             {
                 counter = counter + standardWrapUpTime;
+                lblStatus.Text = string.Format("You have been allocated an extra {0} seconds call wrap-up time...", standardWrapUpTime);
             }
         }
 
