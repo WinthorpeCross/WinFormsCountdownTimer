@@ -8,6 +8,7 @@ namespace FinalCountdown
         private Timer timer;
         private int counter = 30;
         private int standardWrapUpTime = 30;
+        private bool isStopped;
 
         public Form1()
         {
@@ -18,15 +19,16 @@ namespace FinalCountdown
         private void timer_Tick(object sender, EventArgs e)
         {
             counter--;
-            if (counter == 0)
+            if (counter == 0 || isStopped == true)
             {
                 timer.Stop();
                 btnExtend.Enabled = false;
-
-                //trigger getNextCall, if statuses are right...
             }
 
-            lblStatus.Text = string.Format("You have {0} seconds call wrap-up time left...", counter); 
+            if (isStopped == false)
+            {
+                lblStatus.Text = string.Format("You have {0} seconds call wrap-up time left...", counter);
+            }
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -45,6 +47,11 @@ namespace FinalCountdown
             {
                 counter = counter + standardWrapUpTime;
             }
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            isStopped = true;
         }
     }
 }
